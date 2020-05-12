@@ -1,0 +1,13 @@
+
+// Is the card number valid?
+var card = '5000881111111111';
+
+luhn(true, pan);	// true
+
+
+// Calculate check digit
+
+// MII + IIN + "Individual account number"
+var incomplete = '50008811111111';
+
+luhn(incomplete);	// "3"
